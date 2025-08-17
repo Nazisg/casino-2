@@ -8,7 +8,7 @@ export default function TopCasinos() {
                 <h2 className=" text-center text-[24px] font-bold lg:text-[48px]">Top UK <span className=" text-[#F6A410]">Casinos</span></h2>
               <p className="opacity-60 text-center text-[16px] lg:text-[20px]">Handpicked premium casinos with exclusive bonuses</p>
                 {/* Cards */}
-                <div className="flex flex-col xl:gap-6 gap-10 mt-10">
+                <div className="flex flex-col gap-6 mt-10">
                     {casinos.map((casino, index) => (
                         <Card key={index} {...casino} />
                     ))}

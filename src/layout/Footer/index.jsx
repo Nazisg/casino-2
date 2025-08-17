@@ -44,7 +44,7 @@ export default function Footer() {
 
         {/* Bottom Section: Copyright */}
         <div className="w-full text-center opacity-50 text-sm lg:text-base">
-          ©2025 All Rights Reserved By “sitename”
+          ©2025 All Rights Reserved By Casino
         </div>
 
       </div>
