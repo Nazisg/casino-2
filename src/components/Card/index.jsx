@@ -6,6 +6,8 @@ export default function Card({ name, icon, rating, minDeposit, methods, bonus, l
 
             {/* Card Icon (Logo Link) */}
             <div className="col-span-1 flex xl:items-center justify-center">
+                                <div className="flex flex-col gap-3">
+
                 <Link href={link} target="_blank" rel="noopener noreferrer">
                     <img
                         src={icon}
@@ -13,6 +15,13 @@ export default function Card({ name, icon, rating, minDeposit, methods, bonus, l
                         className="w-full h-full object-contain"
                     />
                 </Link>
+                 <div className="flex flex-row gap-1 items-center justify-center">
+                        <div className="text-[#F6A410] px-1 xl:py-1 xl:px-2 rounded-[12px] border border-[#F6A410] text-[10px]"
+                        > UK licensed</div>
+                        <div className="text-[#F6A410] px-1 xl:py-1 xl:px-2 rounded-[12px] border border-[#F6A410] text-[10px]"
+                        >T&C only 18+</div>
+                    </div>
+                </div>
             </div>
 
             {/* Expert Rating */}
